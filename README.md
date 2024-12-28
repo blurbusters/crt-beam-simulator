@@ -9,3 +9,6 @@ Shared to both [BlueSky](https://bsky.app/profile/blurbusters.com/post/3ldz4u6ko
 Article at [www.blurbusters.com/crt](https://www.blurbusters.com/crt)
 
 Shadertoy Realtime Demo: [www.shadertoy.com/view/XfKfWd](https://www.shadertoy.com/view/XfKfWd)
+
+UPDATE: Thanks for the popularity!
+- Version 2 of this algorithm will come in early 2025 that will reduce artifacts (banding, color ghosting) via additional adjustments.  For now, try to use SDR mode instead of HDR mode, and configure your display to Adobe sRGB, adjust your levels via [TestUFO Black Levels (PLUGE)](https://testufo.com/blacklevels) and [TestUFO White Levels (Clipping)](https://testufo.com/whitelevels) test, before running the CRT simulator in a production application such as RetroArch.  Also if you are using an older TN LCD, try to use odd-number native:simulated Hz ratios.  Their voltage-polarity inversion algorithms tend to play better with odd-ratios.
