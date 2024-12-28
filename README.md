@@ -18,4 +18,4 @@ UPDATE: Thanks for the popularity!
 - OLEDs tends work much better with this algorithm, if you don't have any black/white levels clipping issues.
 - Some local dimming panels (FALD, MiniLED) has problems with this algorithm due to backlight lagging behind panel.
 - Apple: Shadertoy stutters more on Mac than iPhone/iPad - MacOS browsers (all of them) stutters more; even a lowly iPhone 11 thru 14 stutters much less than MacBook M4
-- For 120Hz iDevices, set "Prefer Page Rendering Updates Near 60fps" to OFF in Developer Flags of Safari.
+- For 120Hz iPads/iPhones, set "Prefer Page Rendering Updates Near 60fps" to OFF in Developer Flags of Safari.
