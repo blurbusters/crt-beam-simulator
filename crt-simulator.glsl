@@ -1,4 +1,8 @@
 // From Shadertoy https://www.shadertoy.com/view/XfKfWd
+// - Improved version coming January 2025
+// - See accompanying article https://blurbusters.com/crt
+// - To study more about display science & physics, see Research Portal https://blurbusters.com/area51
+
 #ifdef NOT_SHADERTOY
 // We include these definitions to assist other environments (untested)
 uniform vec3      iResolution;           // viewport resolution (in pixels)
