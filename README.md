@@ -6,7 +6,7 @@ See the comments at the top of the HLSL or GLSL shader file.
 
 Shared to both [BlueSky](https://bsky.app/profile/blurbusters.com/post/3ldz4u6kovs2v) and [X.com](https://x.com/BlurBusters/status/1871340328965533777)
 
-Article at [www.blurbusters.com/crt](https://www.blurbusters.com/crt)
+Article at [www.blurbusters.com/crt](https://www.blurbusters.com/crt), also reported on [TechSpot](https://www.techspot.com/news/106111-gpu-based-shader-simulates-motion-clarity-classic-crt.html) and [TomsHardware](https://www.tomshardware.com/monitors/blur-busters-releases-authentic-crt-simulator-shader-for-high-refresh-oled-and-lcd-screens-240-hz-oled-recommended-for-the-best-experience?utm_campaign=socialflow&utm_medium=social&utm_source=twitter.com#xenforo-comments-3866757)!
 
 Shadertoy Realtime Demo: [www.shadertoy.com/view/XfKfWd](https://www.shadertoy.com/view/XfKfWd)
 
