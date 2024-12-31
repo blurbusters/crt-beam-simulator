@@ -1,6 +1,6 @@
 This is the genesis of a CRT temporal simulation shader, created by Mark Rejhon (@BlurBusters) and Timothy Lottes (@NOTimothyLottes).
 
-See the comments at the top of the shader file.
+See the comments at the top of the HLSL or GLSL shader file.
 
 ![Image](https://blurbusters.com/wp-content/uploads/2024/12/crt-simulation-animated.gif) 
 
