@@ -10,6 +10,8 @@ Article at [www.blurbusters.com/crt](https://www.blurbusters.com/crt)
 
 Shadertoy Realtime Demo: [www.shadertoy.com/view/XfKfWd](https://www.shadertoy.com/view/XfKfWd)
 
+Problems? Erratic flicker? Banding? See [HOWTO: Solutions To Known Issues](https://github.com/blurbusters/crt-beam-simulator/issues/4)
+
 UPDATE: Thanks for the popularity!
 - Version 2 of this algorithm will come in early 2025 that will reduce artifacts (banding, color ghosting) via additional adjustments.
 - For now, try to use SDR mode instead of HDR mode, and configure your display and OS to sRGB (due to the gamma2linear->(crt-stuff)->linear2gamma that is hard to keep truly linear to Talbot Plateau Theorem). HDR may work well on a few displays, but most showed some banding due to nonlinear behaviors in display firmwares and ABL changing mid-scanout.
