@@ -12,12 +12,13 @@ Shadertoy Realtime Demo: [www.shadertoy.com/view/XfKfWd](https://www.shadertoy.c
 
 Problems? Erratic flicker? Banding? See [HOWTO: Solutions To Known Issues](https://github.com/blurbusters/crt-beam-simulator/issues/4)
 
-UPDATE: Thanks for the popularity!
+- If this flickers more than BFI, you have a settings problem or display problem, fix it first.
 - Version 2 of this algorithm will come in early 2025 that will reduce artifacts (banding, color ghosting) via additional adjustments.
-- For now, try to use SDR mode instead of HDR mode, and configure your display and OS to sRGB (due to the gamma2linear->(crt-stuff)->linear2gamma that is hard to keep truly linear to Talbot Plateau Theorem). HDR may work well on a few displays, but most showed some banding due to nonlinear behaviors in display firmwares and ABL changing mid-scanout.
-- To reduce or eliminate your banding, calibrate your display levels via [TestUFO Black Levels (PLUGE)](https://testufo.com/blacklevels) and [TestUFO White Levels (Clipping)](https://testufo.com/whitelevels) test, before running the CRT simulator in a production application such as RetroArch.
-- Also if you are using an older TN LCD, try to use odd-number native:simulated Hz ratios.  LCD's voltage-polarity inversion algorithms tend to play better with odd-ratios.
-- OLEDs tends work much better with this algorithm, if you don't have any black/white levels clipping issues.
+- For banding fix, gamma fix, chroma ghosting fix, and flicker fix, see HOWTO at https://github.com/blurbusters/crt-beam-simulator/issues/4
+- Buying a new display?  More native:simulated Hz ratio the merrier.  OLEDs tends work much better with this algorithm, if you don't have any black/white levels clipping issues.
+  - 120Hz modern display can reduce motion blur up to 50% for 60fps content
+  - 240Hz modern display can reduce motion blur up to 75% for 60fps content
+  - 480Hz modern display can reduce motion blur up to 87.5% for 60fps content  
 - Some local dimming panels (FALD, MiniLED) has problems with this algorithm due to backlight lagging behind panel.
 - Apple: Shadertoy stutters more on Mac than iPhone/iPad - MacOS browsers (all of them) stutters more; even a lowly iPhone 11 thru 14 stutters much less than MacBook M4
 - For 120Hz Apple Safari via WebGL/shadertoy, set "Prefer Page Rendering Updates Near 60fps" to OFF in Developer Flags of Safari, see screenshots on either [Twitter/X](https://www.twitter.com/TechLiandr/status/1805472820018778468) or [Google](https://www.google.com/search?q=iPhone+Prefer+Page+Rendering+Updates+Near+60fps&udm=2) for instructions.
