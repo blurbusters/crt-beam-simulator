@@ -1,5 +1,7 @@
 This is the genesis of a CRT temporal simulation shader, created by Mark Rejhon (@BlurBusters) and Timothy Lottes (@NOTimothyLottes).
 
+Yes, it successfully reduces display motion blur, up to your native:simulated Hz ratio (50% blur reduce for 120Hz, 75% blur reduce for 240Hz, 87.5% blur reduce for 480Hz running emulated 60fps 60Hz CRT). 
+
 See the comments at the top of the HLSL or GLSL shader file.
 
 ![Image](https://blurbusters.com/wp-content/uploads/2024/12/crt-simulation-animated.gif) 
