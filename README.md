@@ -8,7 +8,7 @@ Shared to both [BlueSky](https://bsky.app/profile/blurbusters.com/post/3ldz4u6ko
 
 Article at [www.blurbusters.com/crt](https://www.blurbusters.com/crt), also reported on [TechSpot](https://www.techspot.com/news/106111-gpu-based-shader-simulates-motion-clarity-classic-crt.html) and [TomsHardware](https://www.tomshardware.com/monitors/blur-busters-releases-authentic-crt-simulator-shader-for-high-refresh-oled-and-lcd-screens-240-hz-oled-recommended-for-the-best-experience?utm_campaign=socialflow&utm_medium=social&utm_source=twitter.com#xenforo-comments-3866757)!
 
-Shadertoy Realtime Demo: [www.shadertoy.com/view/XfKfWd](https://www.shadertoy.com/view/XfKfWd)
+Shadertoy Realtime Demo: [www.shadertoy.com/view/XfKfWd](https://www.shadertoy.com/view/XfKfWd) (Quit all apps and tabs; browsers stutters a lot)
 
 Problems? Erratic flicker? Banding? See [HOWTO: Solutions To Known Issues](https://github.com/blurbusters/crt-beam-simulator/issues/4)
 
