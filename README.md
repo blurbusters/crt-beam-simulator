@@ -17,7 +17,7 @@ Problems? Erratic flicker? Banding? See [HOWTO: Solutions To Known Issues](https
 - If this flickers more than BFI, you have a settings problem or display problem, fix it first.
 - Version 2 of this algorithm will come in early 2025 that will reduce artifacts (banding, color ghosting) via additional adjustments.
 - For banding fix, gamma fix, chroma ghosting fix, and flicker fix, see HOWTO at https://github.com/blurbusters/crt-beam-simulator/issues/4
-- Buying a new display?  More native:simulated Hz ratio the merrier.  OLEDs tends work much better with this algorithm, if you don't have any black/white levels clipping issues.
+- Buying a new display?  More native:simulated Hz ratio the merrier.  OLEDs tends work much better with this algorithm, if you don't have any black/white levels clipping issues. Avoid FALD/localdimming unless it is a zero-latency FALD layer scanout perfectly in phase with LCD scanout.
   - 120Hz modern display can reduce motion blur up to 50% for 60fps content
   - 240Hz modern display can reduce motion blur up to 75% for 60fps content
   - 480Hz modern display can reduce motion blur up to 87.5% for 60fps content  
