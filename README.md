@@ -25,7 +25,7 @@ Problems? Erratic flicker? Banding? See [HOWTO: Solutions To Known Issues](https
 - Apple: Shadertoy stutters more on Mac than iPhone/iPad - MacOS browsers (all of them) stutters more; even a lowly iPhone 11 thru 14 stutters much less than MacBook M4
 - For 120Hz Apple Safari via WebGL/shadertoy, set "Prefer Page Rendering Updates Near 60fps" to OFF in Developer Flags of Safari, see screenshots on either [Twitter/X](https://www.twitter.com/TechLiandr/status/1805472820018778468) or [Google](https://www.google.com/search?q=iPhone+Prefer+Page+Rendering+Updates+Near+60fps&udm=2) for instructions.
 
-# EDIT MAY 2025: New Software Implementing CRT Simulator
+# EDIT AUG 2025: New Software Implementing CRT Simulator
 
 - RetroArch: Multiplatform emulator, enable subframe shaders:  
   https://www.libretro.com/index.php/retroarch-first-program-to-support-blurbusters-crt-beam-racing-simulator-shader/
@@ -33,3 +33,5 @@ Problems? Erratic flicker? Banding? See [HOWTO: Solutions To Known Issues](https
   https://store.steampowered.com/app/3448910/Vint_Realtime_Video_Interpolation_and_CRT_Emulation/
 - WibbleWobbleCore: Creates a window to a virtual world / 3D stereoscopic glasses
   https://github.com/PHARTGAMES/WibbleWobbleCore
+- ShaderGlass: Work in progress as of August 2025:
+  https://github.com/mausimus/ShaderGlass/pull/193
