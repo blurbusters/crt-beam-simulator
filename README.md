@@ -1,4 +1,5 @@
 ### *UPDATE Nov 2025: [New TestUFO Demo of CRT Simulator](https://testufo.com/crt)*
+### *UPDATE Dec 2025: [New ShaderBeam CRT Simulator for Windows Desktop](https://github.com/mausimus/ShaderBeam)*
 
 # Introduction
 
@@ -30,10 +31,12 @@ Problems? Erratic flicker? Banding? See [HOWTO: Solutions To Known Issues](https
 - Apple: Shadertoy stutters more on Mac than iPhone/iPad - MacOS browsers (all of them) stutters more; even a lowly iPhone 11 thru 14 stutters much less than MacBook M4
 - For 120Hz Apple Safari via WebGL/shadertoy, set "Prefer Page Rendering Updates Near 60fps" to OFF in Developer Flags of Safari, see screenshots on either [Twitter/X](https://www.twitter.com/TechLiandr/status/1805472820018778468) or [Google](https://www.google.com/search?q=iPhone+Prefer+Page+Rendering+Updates+Near+60fps&udm=2) for instructions.
 
-# EDIT NOV 2025: New Software Implementing CRT Simulator
+# EDIT DEC 2025: New Software Implementing CRT Simulator
 
 - TestUFO: CRT Simulator Demo
   https://testufo.com/crt
+- ShaderBeam: CRT Beam Simulator for Windows Desktop (and any apps that runs under Windows)
+  https://github.com/mausimus/ShaderBeam
 - RetroArch: Multiplatform emulator, enable subframe shaders:  
   https://www.libretro.com/index.php/retroarch-first-program-to-support-blurbusters-crt-beam-racing-simulator-shader/
 - Vint Video Player (steam): Play video files with either CRT, or BFI, or interpolation (RIFE 'AI' neural network)"
