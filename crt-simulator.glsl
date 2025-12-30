@@ -1,5 +1,9 @@
+// Update December 2025:
+// Now available on TestUFO - https://testufo.com/crt
+// Now available for Windows Desktop - https://github.com/mausimus/ShaderBeam
+//
 // From Shadertoy https://www.shadertoy.com/view/XfKfWd
-// - Improved version coming January 2025
+// - Improved versions coming in 2026
 // - See accompanying article https://blurbusters.com/crt
 // - To study more about display science & physics, see Research Portal https://blurbusters.com/area51
 
@@ -160,6 +164,7 @@ uniform vec4      iDate;                 // (year, month, day, time in seconds)
 #define LCD_INVERSION_COMPENSATION_SLEW 0.001
 
   // CRT SCAN DIRECTION. Can be useful to counteract an OS rotation of your display
+  //   - 0 global refresh, good to eliminate banding (best at FRAMES_PER_HZ >= 3)
   //   - 1 default (top to bottom), recommended
   //   - 2 reverse (bottom to top)
   //   - 3 portrait (left to right)
@@ -282,7 +287,9 @@ vec3 getPixelFromSimulatedCRT(vec2 uv, float crtRasterPos, float crtHzCounter, f
     vec3 colorPrev1 = pixelPrev1 * brightnessScale;
     vec3 colorCurr  = pixelCurr  * brightnessScale;
       
-#if SCAN_DIRECTION == 1
+#if SCAN_DIRECTION == 0
+    float tubePos = 0.0;           // Global refresh
+#elif SCAN_DIRECTION == 1
     float tubePos = (1.0 - uv.y);  // Top to bottom
 #elif SCAN_DIRECTION == 2
     float tubePos = uv.y;          // Bottom to top
